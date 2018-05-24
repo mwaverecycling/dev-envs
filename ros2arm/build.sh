@@ -48,3 +48,5 @@ touch \
 
 # Build
 src/ament/ament_tools/scripts/ament.py build --force-cmake-configure --cmake-args -DCMAKE_TOOLCHAIN_FILE=`pwd`/aarch64_toolchainfile.cmake -DTHIRDPARTY=ON
+
+tar -czvf /vagrant/build.tgz install/ build/
